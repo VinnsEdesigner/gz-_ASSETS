@@ -1,4 +1,4 @@
-# vyzorix-engine-assets
+# gz-_ASSETS
 
 Public download host for the Vyzorix container engine's Debian rootfs tarballs.
 
@@ -29,7 +29,7 @@ Per ABI (`arm64`, `armeabi-v7a`, `x86_64`):
 The app fetches from `releases/latest/download/`:
 
 ```
-https://github.com/VinnsEdesigner/vyzorix-engine-assets/releases/latest/download/debian-core-<abi>.tar.gz
+https://github.com/VinnsEdesigner/gz-_ASSETS/releases/latest/download/debian-core-<abi>.tar.gz
 ```
 
 A release marked **latest** is what devices pick up. Override the base with
@@ -38,8 +38,8 @@ A release marked **latest** is what devices pick up. Override the base with
 ## Verifying a download by hand
 
 ```bash
-curl -LO https://github.com/VinnsEdesigner/vyzorix-engine-assets/releases/latest/download/SHA256SUMS
-curl -LO https://github.com/VinnsEdesigner/vyzorix-engine-assets/releases/latest/download/debian-core-arm64.tar.gz
+curl -LO https://github.com/VinnsEdesigner/gz-_ASSETS/releases/latest/download/SHA256SUMS
+curl -LO https://github.com/VinnsEdesigner/gz-_ASSETS/releases/latest/download/debian-core-arm64.tar.gz
 sha256sum -c SHA256SUMS --ignore-missing
 ```
 
